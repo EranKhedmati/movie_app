@@ -4,7 +4,11 @@ export default {
     "./src/App.jsx"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }
